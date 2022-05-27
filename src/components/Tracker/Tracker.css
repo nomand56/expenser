@@ -1,0 +1,61 @@
+.App-container{
+    margin: auto;
+    height: 70vh;
+    width:350px;
+    background-color: rgb(248 245 245 / 55%);
+  
+border-radius: 2px;
+
+}
+.Budget{
+    height: 66px;
+    width: 152px;
+    margin: 0.7em;
+    border-radius: 4px;
+}
+.Budget-container{
+    display: flex;
+}
+h1{
+    margin-top: 10px;
+}
+ul{
+    padding: 0;
+}
+ul > li{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: #fffdfc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.expense-history{
+    margin-top: 2em;
+}
+.input{
+        border-radius: 2px  ;
+    border: 0.1px solid rgb(9, 11, 12);
+    width: 100%;
+    padding: 0.5rem;
+    
+}
+.Add-expense{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    margin-top: 2.8rem;
+    width: 100%;
+    background-color: rgb(163 202 222 / 84%);
+    padding: 0.5rem;
+}
+p{
+
+    font-weight: 600;
+    margin: 0;
+}
+.amount{
+    margin-left: 22px;
+}
