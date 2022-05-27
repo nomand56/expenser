@@ -1,5 +1,6 @@
-import { initializeApp } from "firebase/app";
-import { getMessaging } from "firebase/messaging";
+
+importScripts('https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js');
+importScripts('https://www.gstatic.com/firebasejs/8.2.9/firebase-messaging.js');
 
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
@@ -13,9 +14,9 @@ const firebaseConfig = {
   };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+
+firebase.messaging();
 
 
-// Initialize Firebase Cloud Messaging and get a reference to the service
-const messaging = getMessaging(app);
 

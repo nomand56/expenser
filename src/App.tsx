@@ -11,7 +11,7 @@ function App() {
   // subsequent calls to getToken will return from cache.
 
   const messaging = getMessaging(firebase);
-getToken(messaging, { vapidKey: "AIzaSyA5dj7thDXPbF0emv7RVoBkrheXV_Azu1o" }).then((currentToken:any) => {
+getToken(messaging, { vapidKey: "BKfLKcEJmBY2jn21RyTY-bv3N3QZOjK4bhcCEONYejl6hvo6KA9vcM8OTiGtM_4EuB-HoSI5dA9_01MnOoARMJ4" }).then((currentToken:any) => {
     if (currentToken) {
    console.log(currentToken)
       // ...
